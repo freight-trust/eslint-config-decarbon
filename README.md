@@ -1,6 +1,6 @@
-# eslint-config-carbon
+# eslint-config-decarbon
 
-> ESLint configuration for Carbon
+> ESLint configuration for Decarbon
 
 ## Getting started
 
@@ -8,14 +8,14 @@ To install `eslint-config-carbon` in your project, you will need to run the
 following command using [npm](https://www.npmjs.com/):
 
 ```bash
-npm install -S eslint-config-carbon
+npm install -S eslint-config-decarbon
 ```
 
 If you prefer [Yarn](https://yarnpkg.com/en/), use the following command
 instead:
 
 ```bash
-yarn add eslint-config-carbon
+yarn add eslint-config-decarbon
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ You can use `eslint-config-carbon` in your project by extending it in your
 
 ```json
 {
-  "extends": ["carbon"]
+  "extends": ["decarbon"]
 }
 ```
 
@@ -36,7 +36,7 @@ you'd like to not include these rules in your setup, you can also include a
 
 ```json
 {
-  "extends": ["eslint-config-carbon/base"]
+  "extends": ["eslint-config-decarbon/base"]
 }
 ```
 
