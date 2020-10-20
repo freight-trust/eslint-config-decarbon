@@ -5,25 +5,25 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-'use strict';
+"use strict";
 
 module.exports = {
-  plugins: ['jsdoc'],
+  plugins: ["jsdoc"],
   settings: {
     jsdoc: {
       tagNamePreference: {
-        augments: 'extends',
+        augments: "extends",
       },
     },
   },
   rules: {
-    'jsdoc/check-param-names': 2,
-    'jsdoc/check-tag-names': [
-      'error',
+    "jsdoc/check-param-names": 2,
+    "jsdoc/check-tag-names": [
+      "error",
       {
-        definedTags: ['jest-environment'],
+        definedTags: ["jest-environment"],
       },
     ],
-    'jsdoc/check-types': 2,
+    "jsdoc/check-types": 2,
   },
 };

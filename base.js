@@ -5,20 +5,20 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-'use strict';
+"use strict";
 
 module.exports = {
-  parser: 'babel-eslint',
-  extends: ['eslint:recommended', require.resolve('./plugins/jsdoc')],
+  parser: "babel-eslint",
+  extends: ["eslint:recommended", require.resolve("./plugins/jsdoc")],
   rules: {
     // Handle cases where we are destructuring but may not be using the initial
     // variables
-    'no-unused-vars': [
-      'error',
+    "no-unused-vars": [
+      "error",
       {
-        args: 'after-used',
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
+        args: "after-used",
+        argsIgnorePattern: "^_",
+        varsIgnorePattern: "^_",
       },
     ],
   },
