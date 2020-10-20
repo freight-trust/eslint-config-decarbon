@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-decarbon",
+  "description": "ESLint configuration for Carbon",
+  "version": "2.1.0",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": "https://github.com/freight-trust/carbon/tree/master/config/eslint-config-carbon",
+  "bugs": "https://github.com/freight-trust/carbon/issues",
+  "files": [
+    "plugins",
+    "base.js",
+    "index.js",
+    "react.js",
+    "vanilla.js"
+  ],
+  "keywords": [
+    "ibm",
+    "carbon",
+    "freight-trust",
+    "components",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "7.8.1"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.3",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-restricted-globals": "^0.2.0"
+  }
+}
