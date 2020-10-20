@@ -4,8 +4,8 @@
   "version": "2.2.0",
   "license": "Apache-2.0",
   "main": "index.js",
-  "repository": "https://github.com/freight-trust/carbon/tree/master/config/eslint-config-carbon",
-  "bugs": "https://github.com/freight-trust/carbon/issues",
+  "repository": "https://github.com/freight-trust/eslint-config-decarbon",
+  "bugs": "https://github.com/freight-trust/eslint-config-decarbon/issues",
   "files": [
     "plugins",
     "base.js",
